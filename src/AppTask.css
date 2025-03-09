@@ -1,0 +1,42 @@
+#completar{
+    transition: all 500ms ease-in-out;
+    /* background-color: aliceblue; */
+}
+
+#completar:hover{
+    background-color: rgb(54, 175, 54);
+    transition: all 500ms ease-in-out;
+}
+
+#eliminar:hover{
+    background-color: rgb(248, 116, 116);
+    transition: all 500ms ease-in-out;
+}
+
+#eliminar{
+    transition: all 500ms ease-in-out;
+}
+
+.completada{
+    text-decoration: line-through;
+}
+
+.noCompletada{
+    text-decoration: none;
+}
+
+.containerTarea{
+    /* border: black solid 1px; */
+    padding: 5px;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: rgb(3, 57, 77) 0px 20px 30px -10px;
+    transition: all 500ms ease-in-out;
+    background-color: rgb(108, 86, 236);
+}
+
+.containerTareaCompletada{
+    transition: all 1s ease-in-out;
+    /* background-image: linear-gradient(to left, #6eaf71, #70d2ba); */
+    background-color: rgb(79, 208, 79);
+}
